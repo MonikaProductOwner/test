@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: online-food-delivery
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: online-food-delivery
+  replicas: 1
+  template:
+    metadata:
+      name: online-food-delivery
+      labels:
+        app: online-food-delivery
+    spec:
+      containers:
+      - name: online-food-delivery
+        env:
+          - name: POSTGRES_USER
+            valueFrom:
+              secretKeyRef:
+                 name: postgres-secrets
+                 key: username
+          - name: POSTGRES_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                 name: postgres-secrets
+                 key: password
+          - name: POSTGRES_HOST
+            valueFrom:
+              configMapKeyRef:
+                name: hostname-config
+                key: postgres_host
+        image: krumoni/online-food-delivery

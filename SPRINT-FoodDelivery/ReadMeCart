@@ -1,0 +1,192 @@
+createCart
+
+http://localhost:9999/cart/createCart/9
+
+{
+    "data": {
+        "cartId": 13,
+        "customer": {
+            "customerId": 9,
+            "customerName": "siddharth",
+            "customerMobile": 2345659,
+            "customerEmail": "siddharth@gmail.com",
+            "customerAddress": "Pune",
+            "userName": "siddharth0302",
+            "password": "siddharth123"
+        },
+        "total": 700.0,
+        "cartItem": [
+            {
+                "itemId": 12,
+                "food": {
+                    "foodId": 11,
+                    "foodType": "veg",
+                    "foodName": "veg tikka ",
+                    "foodDescription": "Veg tikka toppings with chapati",
+                    "foodCost": 700.0,
+                    "foodQuantity": 5
+                },
+                "quantity": 1,
+                "customer": {
+                    "customerId": 9,
+                    "customerName": "siddharth",
+                    "customerMobile": 2345659,
+                    "customerEmail": "siddharth@gmail.com",
+                    "customerAddress": "Pune",
+                    "userName": "siddharth0302",
+                    "password": "siddharth123"
+                },
+                "foodItem": null
+            }
+        ]
+    },
+    "status": 200
+}
+
+
+
+ADD FOOD TO CARTITEM
+Method-POST
+URL-http://localhost:9999/cart/addItem
+
+{
+
+    "foodId": 4,
+    "foodItem": "Chats",
+    "quantity": 1,
+    "customerId": 2
+    
+}
+
+
+
+ {
+        "itemId": 6,
+        "food": {
+            "foodId": 4,
+            "foodType": "veg",
+            "foodName": "pulav ",
+            "foodDescription": "vegetable pulav",
+            "foodCost": 300.0,
+            "foodQuantity": 5
+        },
+        "quantity": 1,
+        "customer": {
+            "customerId": 2,
+            "customerName": "Monika",
+            "customerMobile": 2345678,
+            "customerEmail": "monika@gmail.com",
+            "customerAddress": "coorg",
+            "userName": "moni0302",
+            "password": "moni123"
+        },
+        "foodItem": null
+    },
+    }
+    
+    
+    
+CREATE CART
+Method-POST
+URL-http://localhost:9999/cart/createCart/2
+
+{
+
+    "foodId": 4,
+    "foodItem": "Chats",
+    "quantity": 1,
+    "customerId": 2
+    
+}
+
+
+{
+    "data": {
+        "cartId": 7,
+        "customer": {
+            "customerId": 2,
+            "customerName": "Monika",
+            "customerMobile": 2345678,
+            "customerEmail": "monika@gmail.com",
+            "customerAddress": "coorg",
+            "userName": "moni0302",
+            "password": "moni123"
+        },
+        "total": 300.0,
+        "cartItem": [
+            {
+                "itemId": 6,
+                "food": {
+                    "foodId": 4,
+                    "foodType": "veg",
+                    "foodName": "pulav ",
+                    "foodDescription": "vegetable pulav",
+                    "foodCost": 300.0,
+                    "foodQuantity": 5
+                },
+                "quantity": 1,
+                "customer": {
+                    "customerId": 2,
+                    "customerName": "Monika",
+                    "customerMobile": 2345678,
+                    "customerEmail": "monika@gmail.com",
+                    "customerAddress": "coorg",
+                    "userName": "moni0302",
+                    "password": "moni123"
+                },
+                "foodItem": null
+            }
+        ]
+    },
+    "status": 200
+}
+
+
+
+UPDATE CART QUANTITY
+Method-PUT
+URL-http://localhost:9999/cart/updateCartQuantity/2/6/3
+
+{
+    "data": {
+        "itemId": 6,
+        "food": {
+            "foodId": 4,
+            "foodType": "veg",
+            "foodName": "pulav ",
+            "foodDescription": "vegetable pulav",
+            "foodCost": 300.0,
+            "foodQuantity": 5
+        },
+        "quantity": 3,
+        "customer": {
+            "customerId": 2,
+            "customerName": "Monika",
+            "customerMobile": 2345678,
+            "customerEmail": "monika@gmail.com",
+            "customerAddress": "coorg",
+            "userName": "moni0302",
+            "password": "moni123"
+        },
+        "foodItem": null
+    },
+    "status": 200
+}
+
+
+DELETE CARTITEM 
+Method-DELETE
+URL-http://localhost:9999/cart/deleteItemFromCart/2/6
+
+{
+    "data": "deleted",
+   
+}
+
+CLEAR CART
+Method-DELETE
+URL-http://localhost:9999/cart/clearCart/2
+
+{
+    "data": "Cart Deleted",
+}

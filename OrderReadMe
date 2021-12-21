@@ -1,0 +1,186 @@
+VIEW ALL ORDER
+METHOD-GET
+URL-   http://localhost:9999/orders/viewAllOrder
+
+[
+    {
+        "orderId": 14,
+        "finalPrice": 0.0,
+        "orderStatus": "Booked",
+        "customer": {
+            "customerId": 8,
+            "customerName": "Amol",
+            "customerMobile": 2345679,
+            "customerEmail": "Amol@gmail.com",
+            "customerAddress": "Pune",
+            "userName": "Amol0302",
+            "password": "Amol123"
+        },
+        "cart": {
+            "cartId": 13,
+            "customer": {
+                "customerId": 9,
+                "customerName": "siddharth",
+                "customerMobile": 2345659,
+                "customerEmail": "siddharth@gmail.com",
+                "customerAddress": "Pune",
+                "userName": "siddharth0302",
+                "password": "siddharth123"
+            },
+            "total": 700.0,
+            "cartItem": [
+                {
+                    "itemId": 12,
+                    "food": {
+                        "foodId": 11,
+                        "foodType": "veg",
+                        "foodName": "veg tikka ",
+                        "foodDescription": "Veg tikka toppings with chapati",
+                        "foodCost": 700.0,
+                        "foodQuantity": 5
+                    },
+                    "quantity": 1,
+                    "customer": {
+                        "customerId": 9,
+                        "customerName": "siddharth",
+                        "customerMobile": 2345659,
+                        "customerEmail": "siddharth@gmail.com",
+                        "customerAddress": "Pune",
+                        "userName": "siddharth0302",
+                        "password": "siddharth123"
+                    },
+                    "foodItem": null
+                }
+            ]
+        },
+        "orderDate": "2021-12-01"
+    }
+]
+
+BookOrderInfo
+METHOD-POST
+URL -  http://localhost:9999/orders/insertOrder/13/8(cartid/customerid)
+
+{
+    "data": {
+        "orderId": 14,
+        "finalPrice": 0.0,
+        "orderStatus": "Booked",
+        "customer": {
+            "customerId": 8,
+            "customerName": "Amol",
+            "customerMobile": 2345679,
+            "customerEmail": "Amol@gmail.com",
+            "customerAddress": "Pune",
+            "userName": "Amol0302",
+            "password": "Amol123"
+        },
+        "cart": {
+            "cartId": 13,
+            "customer": {
+                "customerId": 9,
+                "customerName": "siddharth",
+                "customerMobile": 2345659,
+                "customerEmail": "siddharth@gmail.com",
+                "customerAddress": "Pune",
+                "userName": "siddharth0302",
+                "password": "siddharth123"
+            },
+            "total": 700.0,
+            "cartItem": [
+                {
+                    "itemId": 12,
+                    "food": {
+                        "foodId": 11,
+                        "foodType": "veg",
+                        "foodName": "veg tikka ",
+                        "foodDescription": "Veg tikka toppings with chapati",
+                        "foodCost": 700.0,
+                        "foodQuantity": 5
+                    },
+                    "quantity": 1,
+                    "customer": {
+                        "customerId": 9,
+                        "customerName": "siddharth",
+                        "customerMobile": 2345659,
+                        "customerEmail": "siddharth@gmail.com",
+                        "customerAddress": "Pune",
+                        "userName": "siddharth0302",
+                        "password": "siddharth123"
+                    },
+                    "foodItem": null
+                }
+            ]
+        },
+        "orderDate": "2021-12-01"
+    },
+    "status": 200
+}
+
+
+ViewOrder
+METHOD-GET
+URL - http://localhost:9999/orders/viewOrderByOrderandCustomerId/8(customerId)
+
+{
+    "data": [
+        {
+            "orderId": 14,
+            "finalPrice": 700.0,
+            "orderStatus": "Booked",
+            "customer": {
+                "customerId": 8,
+                "customerName": "Amol",
+                "customerMobile": 2345679,
+                "customerEmail": "Amol@gmail.com",
+                "customerAddress": "Pune",
+                "userName": "Amol0302",
+                "password": "Amol123"
+            },
+            "cart": {
+                "cartId": 13,
+                "customer": {
+                    "customerId": 9,
+                    "customerName": "siddharth",
+                    "customerMobile": 2345659,
+                    "customerEmail": "siddharth@gmail.com",
+                    "customerAddress": "Pune",
+                    "userName": "siddharth0302",
+                    "password": "siddharth123"
+                },
+                "total": 700.0,
+                "cartItem": [
+                    {
+                        "itemId": 12,
+                        "food": {
+                            "foodId": 11,
+                            "foodType": "veg",
+                            "foodName": "veg tikka ",
+                            "foodDescription": "Veg tikka toppings with chapati",
+                            "foodCost": 700.0,
+                            "foodQuantity": 5
+                        },
+                        "quantity": 1,
+                        "customer": {
+                            "customerId": 9,
+                            "customerName": "siddharth",
+                            "customerMobile": 2345659,
+                            "customerEmail": "siddharth@gmail.com",
+                            "customerAddress": "Pune",
+                            "userName": "siddharth0302",
+                            "password": "siddharth123"
+                        },
+                        "foodItem": null
+                    }
+                ]
+            },
+            "orderDate": "2021-12-01"
+        }
+    ],
+    "status": 200
+}
+
+DeleteOrder
+METHOD-DELETE
+URL -  http://localhost:9999/orders/DeleteOrder/14
+Order Deleted Successfully

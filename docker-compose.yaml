@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  app:
+    container_name: food-delivery
+    image: food-delivery
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgresqldb
+    links:
+      - postgresqldb:postgres
+  postgresqldb:
+    image: "postgres:latest"
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres

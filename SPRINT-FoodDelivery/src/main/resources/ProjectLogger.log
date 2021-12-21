@@ -1,0 +1,323 @@
+2021-12-01 11:12:28.983  INFO 104588 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Starting SprintFoodDeliveryApplication using Java 15.0.1 on MoniLenovo with PID 104588 (H:\SPRINT-FoodDelivery\SPRINT-FoodDelivery\target\classes started by Monika S A in H:\SPRINT-FoodDelivery\SPRINT-FoodDelivery)
+2021-12-01 11:12:28.993  INFO 104588 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : No active profile set, falling back to default profiles: default
+2021-12-01 11:12:30.692  INFO 104588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-01 11:12:30.873  INFO 104588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 6 JPA repository interfaces.
+2021-12-01 11:12:32.152  INFO 104588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2021-12-01 11:12:32.207  INFO 104588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-01 11:12:32.208  INFO 104588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-01 11:12:32.488  INFO 104588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-01 11:12:32.490  INFO 104588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3352 ms
+2021-12-01 11:12:32.860  INFO 104588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-01 11:12:32.977  INFO 104588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-01 11:12:33.307  INFO 104588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-01 11:12:33.619  INFO 104588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-01 11:12:34.421  INFO 104588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-01 11:12:34.481  INFO 104588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-01 11:12:43.167  INFO 104588 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-01 11:12:43.490  INFO 104588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-01 11:12:46.896  WARN 104588 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-01 11:12:48.917  INFO 104588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2021-12-01 11:12:48.932  INFO 104588 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Started SprintFoodDeliveryApplication in 21.157 seconds (JVM running for 23.293)
+2021-12-01 11:27:25.180  INFO 104588 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-01 11:27:25.268  INFO 104588 --- [RMI TCP Connection(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-01 11:27:25.274  INFO 104588 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-01 11:27:25.337  INFO 104588 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-01 11:43:13.757  INFO 106492 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Starting SprintFoodDeliveryApplication using Java 15.0.1 on MoniLenovo with PID 106492 (H:\SPRINT-FoodDelivery\SPRINT-FoodDelivery\target\classes started by Monika S A in H:\SPRINT-FoodDelivery\SPRINT-FoodDelivery)
+2021-12-01 11:43:13.763  INFO 106492 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : No active profile set, falling back to default profiles: default
+2021-12-01 11:43:15.420  INFO 106492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-01 11:43:15.565  INFO 106492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 6 JPA repository interfaces.
+2021-12-01 11:43:16.509  INFO 106492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2021-12-01 11:43:16.524  INFO 106492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-01 11:43:16.525  INFO 106492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-01 11:43:16.991  INFO 106492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-01 11:43:16.991  INFO 106492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3098 ms
+2021-12-01 11:43:17.344  INFO 106492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-01 11:43:17.479  INFO 106492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-01 11:43:18.421  INFO 106492 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-01 11:43:18.915  INFO 106492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-01 11:43:20.150  INFO 106492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-01 11:43:20.279  INFO 106492 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-01 11:43:22.959  INFO 106492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-01 11:43:22.979  INFO 106492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-01 11:43:24.530  WARN 106492 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-01 11:43:26.016  INFO 106492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2021-12-01 11:43:26.095  INFO 106492 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Started SprintFoodDeliveryApplication in 13.516 seconds (JVM running for 15.424)
+2021-12-01 11:50:56.245  INFO 106492 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-01 11:50:56.246  INFO 106492 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 11:50:56.249  INFO 106492 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-01 11:50:56.419  WARN 106492 --- [http-nio-9999-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-01 11:56:29.330 ERROR 106492 --- [http-nio-9999-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: ids for this class must be manually assigned before calling save(): com.cg.ofda.model.Login; nested exception is org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.cg.ofda.model.Login] with root cause
+
+org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.cg.ofda.model.Login
+	at org.hibernate.id.Assigned.generate(Assigned.java:33) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:115) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:760) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.13.jar:5.3.13]
+	at com.sun.proxy.$Proxy105.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.13.jar:5.3.13]
+	at com.sun.proxy.$Proxy105.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:624) ~[spring-data-jpa-2.6.0.jar:2.6.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:638) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.6.0.jar:2.6.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at com.sun.proxy.$Proxy117.save(Unknown Source) ~[na:na]
+	at com.cg.ofda.service.ILogin.addNewUser(ILogin.java:21) ~[classes/:na]
+	at com.cg.ofda.service.ILogin$$FastClassBySpringCGLIB$$248d5916.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.13.jar:5.3.13]
+	at com.cg.ofda.service.ILogin$$EnhancerBySpringCGLIB$$bb3945e.addNewUser(<generated>) ~[classes/:na]
+	at com.cg.ofda.controller.LoginController.register(LoginController.java:34) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-12-01 12:04:53.440  INFO 106492 --- [http-nio-9999-exec-10] c.c.ofda.controller.ICustomerController  : Insert Customer
+2021-12-01 12:06:33.468  INFO 106492 --- [http-nio-9999-exec-1] c.c.ofda.controller.ICustomerController  : Insert Customer
+2021-12-01 12:08:49.171  INFO 106492 --- [http-nio-9999-exec-5] c.c.ofda.controller.ICustomerController  : Retrieve Customer
+2021-12-01 12:11:41.821  INFO 106492 --- [http-nio-9999-exec-9] c.c.ofda.controller.ICustomerController  : Edit Customer Details
+2021-12-01 12:13:38.850  INFO 106492 --- [http-nio-9999-exec-3] c.c.ofda.controller.ICustomerController  : View one Customer by id
+2021-12-01 12:16:16.436  INFO 106492 --- [http-nio-9999-exec-6] c.c.ofda.controller.ICustomerController  : Delete Customer by id
+2021-12-01 12:38:11.343  INFO 106492 --- [RMI TCP Connection(61)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-01 12:38:11.846  INFO 106492 --- [RMI TCP Connection(61)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-01 12:38:11.855  INFO 106492 --- [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-01 12:38:12.071  INFO 106492 --- [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-01 12:38:32.845  INFO 106328 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Starting SprintFoodDeliveryApplication using Java 15.0.1 on MoniLenovo with PID 106328 (H:\SPRINT-FoodDelivery\SPRINT-FoodDelivery\target\classes started by Monika S A in H:\SPRINT-FoodDelivery\SPRINT-FoodDelivery)
+2021-12-01 12:38:32.851  INFO 106328 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : No active profile set, falling back to default profiles: default
+2021-12-01 12:38:35.156  INFO 106328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-01 12:38:35.285  INFO 106328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 6 JPA repository interfaces.
+2021-12-01 12:38:36.250  INFO 106328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2021-12-01 12:38:36.266  INFO 106328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-01 12:38:36.267  INFO 106328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-01 12:38:36.466  INFO 106328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-01 12:38:36.467  INFO 106328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3535 ms
+2021-12-01 12:38:36.770  INFO 106328 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-01 12:38:36.845  INFO 106328 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-01 12:38:37.091  INFO 106328 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-01 12:38:37.256  INFO 106328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-01 12:38:37.541  INFO 106328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-01 12:38:37.586  INFO 106328 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-01 12:38:40.649  INFO 106328 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-01 12:38:40.666  INFO 106328 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-01 12:38:41.773  WARN 106328 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-01 12:38:43.284  INFO 106328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2021-12-01 12:38:43.300  INFO 106328 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Started SprintFoodDeliveryApplication in 11.117 seconds (JVM running for 12.363)
+2021-12-01 12:39:11.697  INFO 106328 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-01 12:39:11.698  INFO 106328 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 12:39:11.699  INFO 106328 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-01 12:39:11.886  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.IFoodController   : Add Food
+2021-12-01 12:40:43.282  INFO 106328 --- [http-nio-9999-exec-5] com.cg.ofda.controller.IFoodController   : Delete Food
+2021-12-01 12:43:05.891  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.IFoodController   : Add Food
+2021-12-01 12:44:05.879  INFO 106328 --- [http-nio-9999-exec-10] com.cg.ofda.controller.IFoodController   : Add Food
+2021-12-01 12:44:39.257  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.IFoodController   : View All Food
+2021-12-01 12:51:35.265  INFO 106328 --- [http-nio-9999-exec-4] com.cg.ofda.controller.IFoodController   : View Food Id
+2021-12-01 12:53:32.827  INFO 106328 --- [http-nio-9999-exec-6] com.cg.ofda.controller.IFoodController   : Update Food
+2021-12-01 12:55:13.751  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.IFoodController   : View All Food
+2021-12-01 12:57:47.602  INFO 106328 --- [http-nio-9999-exec-4] com.cg.ofda.controller.IFoodController   : Update Food
+2021-12-01 14:11:42.631  WARN 106328 --- [http-nio-9999-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-12-01 14:12:43.453  INFO 106328 --- [http-nio-9999-exec-10] c.c.ofda.controller.ICustomerController  : View one Customer by id
+2021-12-01 14:13:06.790  INFO 106328 --- [http-nio-9999-exec-9] c.c.ofda.controller.ICustomerController  : Retrieve Customer
+2021-12-01 14:15:42.892  INFO 106328 --- [http-nio-9999-exec-3] c.c.o.controller.IFoodOrderController    : View All Orders
+2021-12-01 14:33:46.375  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.ICartController   : add-item URL is opened
+2021-12-01 14:33:46.375  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.ICartController   : addFoodToCart() is initiated
+2021-12-01 14:34:09.348  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.ICartController   : add-item URL is opened
+2021-12-01 14:34:09.348  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.ICartController   : addFoodToCart() is initiated
+2021-12-01 14:34:51.030  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.ICartController   : add-item URL is opened
+2021-12-01 14:34:51.031  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.ICartController   : addFoodToCart() is initiated
+2021-12-01 14:39:57.427  WARN 106328 --- [http-nio-9999-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{customerid}"]
+2021-12-01 14:40:09.911  WARN 106328 --- [http-nio-9999-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{2}"]
+2021-12-01 14:40:16.776  INFO 106328 --- [http-nio-9999-exec-10] com.cg.ofda.controller.ICartController   : create-cart URL is opened
+2021-12-01 14:40:16.777  INFO 106328 --- [http-nio-9999-exec-10] com.cg.ofda.controller.ICartController   : createCart() is initiated
+2021-12-01 14:50:04.890  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.ICartController   : update-cart-quantity URL is opened
+2021-12-01 14:50:04.891  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.ICartController   : updateCartQuantity() is initiated
+2021-12-01 14:51:42.084  INFO 106328 --- [http-nio-9999-exec-4] com.cg.ofda.controller.ICartController   : update-cart-quantity URL is opened
+2021-12-01 14:51:42.085  INFO 106328 --- [http-nio-9999-exec-4] com.cg.ofda.controller.ICartController   : updateCartQuantity() is initiated
+2021-12-01 14:55:44.344  INFO 106328 --- [http-nio-9999-exec-7] c.c.ofda.controller.ICustomerController  : Insert Customer
+2021-12-01 14:56:15.485  INFO 106328 --- [http-nio-9999-exec-10] c.c.ofda.controller.ICustomerController  : Insert Customer
+2021-12-01 14:56:40.230  INFO 106328 --- [http-nio-9999-exec-9] c.c.ofda.controller.ICustomerController  : Retrieve Customer
+2021-12-01 15:18:50.288  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.ICartController   : clear-cart URL is opened
+2021-12-01 15:18:50.289  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.ICartController   : clearCart() is initiated
+2021-12-01 15:18:59.561  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.ICartController   : clear-cart URL is opened
+2021-12-01 15:18:59.562  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.ICartController   : clearCart() is initiated
+2021-12-01 15:18:59.657 ERROR 106328 --- [http-nio-9999-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.cg.ofda.model.Cart.getCartId()" because the return value of "com.cg.ofda.dao.ICartRepositoryDao.findByCustomer(com.cg.ofda.model.Customer)" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.cg.ofda.model.Cart.getCartId()" because the return value of "com.cg.ofda.dao.ICartRepositoryDao.findByCustomer(com.cg.ofda.model.Customer)" is null
+	at com.cg.ofda.service.ICartServiceImpl.clearCart(ICartServiceImpl.java:98) ~[classes/:na]
+	at com.cg.ofda.controller.ICartController.clearCart(ICartController.java:186) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+
+2021-12-01 15:19:10.078  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.ICartController   : clear-cart URL is opened
+2021-12-01 15:19:10.078  INFO 106328 --- [http-nio-9999-exec-1] com.cg.ofda.controller.ICartController   : clearCart() is initiated
+2021-12-01 15:20:32.576  INFO 106328 --- [http-nio-9999-exec-6] c.c.o.controller.IFoodOrderController    : View All Orders
+2021-12-01 15:22:15.781  INFO 106328 --- [http-nio-9999-exec-10] com.cg.ofda.controller.IFoodController   : Add Food
+2021-12-01 15:22:56.382  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.IFoodController   : Add Food
+2021-12-01 15:23:27.075  INFO 106328 --- [http-nio-9999-exec-2] com.cg.ofda.controller.IFoodController   : View All Food
+2021-12-01 15:26:05.173  INFO 106328 --- [http-nio-9999-exec-5] com.cg.ofda.controller.ICartController   : add-item URL is opened
+2021-12-01 15:26:05.173  INFO 106328 --- [http-nio-9999-exec-5] com.cg.ofda.controller.ICartController   : addFoodToCart() is initiated
+2021-12-01 15:27:01.112  INFO 106328 --- [http-nio-9999-exec-4] com.cg.ofda.controller.ICartController   : add-item URL is opened
+2021-12-01 15:27:01.112  INFO 106328 --- [http-nio-9999-exec-4] com.cg.ofda.controller.ICartController   : addFoodToCart() is initiated
+2021-12-01 15:27:59.509  INFO 106328 --- [http-nio-9999-exec-6] c.c.o.controller.IFoodOrderController    : View All Orders
+2021-12-01 15:32:29.050  INFO 106328 --- [http-nio-9999-exec-7] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 15:32:29.051  INFO 106328 --- [http-nio-9999-exec-7] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 15:32:39.391  INFO 106328 --- [http-nio-9999-exec-9] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 15:32:39.392  INFO 106328 --- [http-nio-9999-exec-9] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 15:32:45.117  INFO 106328 --- [http-nio-9999-exec-2] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 15:32:45.118  INFO 106328 --- [http-nio-9999-exec-2] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 15:32:50.919  INFO 106328 --- [http-nio-9999-exec-3] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 15:32:50.919  INFO 106328 --- [http-nio-9999-exec-3] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 16:12:59.425  INFO 106328 --- [http-nio-9999-exec-5] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 16:12:59.426  INFO 106328 --- [http-nio-9999-exec-5] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 16:28:46.979  INFO 106328 --- [http-nio-9999-exec-10] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 16:28:46.980  INFO 106328 --- [http-nio-9999-exec-10] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 16:49:18.251  WARN 106328 --- [http-nio-9999-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "{9}"]
+2021-12-01 16:49:34.224  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.ICartController   : create-cart URL is opened
+2021-12-01 16:49:34.225  INFO 106328 --- [http-nio-9999-exec-9] com.cg.ofda.controller.ICartController   : createCart() is initiated
+2021-12-01 16:55:12.698  INFO 106328 --- [http-nio-9999-exec-1] c.c.o.controller.IFoodOrderController    : View All Orders
+2021-12-01 16:56:39.035  INFO 106328 --- [http-nio-9999-exec-6] c.c.o.controller.IFoodOrderController    : bookOrder-info URL is opened
+2021-12-01 16:56:39.035  INFO 106328 --- [http-nio-9999-exec-6] c.c.o.controller.IFoodOrderController    : bookOrder() is initiated
+2021-12-01 16:58:03.313  INFO 106328 --- [http-nio-9999-exec-2] c.c.o.controller.IFoodOrderController    : View All Orders
+2021-12-01 17:00:24.287  WARN 106328 --- [http-nio-9999-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.cg.ofda.model.Order> com.cg.ofda.controller.IFoodOrderController.updateOrder(com.cg.ofda.model.Order)]
+2021-12-01 17:03:50.475  WARN 106328 --- [http-nio-9999-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "01/12/2021": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '01/12/2021' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "01/12/2021": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '01/12/2021' could not be parsed at index 0<LF> at [Source: (PushbackInputStream); line: 5, column: 17] (through reference chain: com.cg.ofda.model.Order["orderDate"])]
+2021-12-01 17:07:25.945  WARN 106328 --- [http-nio-9999-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2021-12-1": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2021-12-1' could not be parsed at index 8; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "2021-12-1": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2021-12-1' could not be parsed at index 8<LF> at [Source: (PushbackInputStream); line: 9, column: 14] (through reference chain: com.cg.ofda.model.Order["orderDate"])]
+2021-12-01 17:13:11.503  INFO 106328 --- [http-nio-9999-exec-6] c.c.o.controller.IFoodOrderController    : View Your Orders
+2021-12-01 17:20:53.248  WARN 106328 --- [http-nio-9999-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]

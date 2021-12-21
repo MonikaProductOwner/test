@@ -1,0 +1,110 @@
+ADD PIZZA
+Method-POST
+URL-http://localhost:9999/food/add
+Body 1-{
+    "foodType": "Nonveg",
+    "foodName": "Chicken tikka ",
+    "foodDescription": "Chicken tikka toppings with chapati",
+    "foodCost": 500,
+    "foodQuantity": 2
+}
+
+Body 2-{
+    "foodType": "Nonveg",
+    "foodName": "Biryani",
+    "foodDescription": "Spicy",
+    "foodCost": 500,
+    "foodQuantity": 4
+}
+
+
+
+DELETE Food
+Method-DELETE
+URL-http://localhost:9999/food/delete/1
+
+Deleted Food
+
+VIEW ALL food
+Method-GET
+URL-http://localhost:9999/food/viewAllFood
+
+{
+        "foodId": 4,
+        "foodType": "veg",
+        "foodName": "pulav ",
+        "foodDescription": "vegetable pulav",
+        "foodCost": 300.0,
+        "foodQuantity": 5
+    },
+    {
+        "foodId": 5,
+        "foodType": "Nonveg",
+        "foodName": "Biriyani",
+        "foodDescription": "Biriyani with soda",
+        "foodCost": 800.0,
+        "foodQuantity": 3
+    }
+
+VIEW Food BY ID
+Method-GET
+URL-http://localhost:9999/food/viewfood/5
+{
+        "foodId": 5,
+        "foodType": "Nonveg",
+        "foodName": "Biriyani",
+        "foodDescription": "Biriyani with soda",
+        "foodCost": 800.0,
+        "foodQuantity": 3
+    },
+
+
+UPDATE Food
+Method-PUT
+URL-http://localhost:9999/food/UpdateFood
+
+Updated
+
+
+
+
+VIEW ALL food
+Method-GET
+URL-http://localhost:9999/food/viewAllFood
+
+[
+    {
+        "foodId": 4,
+        "foodType": "veg",
+        "foodName": "pulav ",
+        "foodDescription": "vegetable pulav",
+        "foodCost": 300.0,
+        "foodQuantity": 5
+    },
+    {
+        "foodId": 5,
+        "foodType": "Nonveg",
+        "foodName": "ChickenBiriyani",
+        "foodDescription": "Biriyani with soda",
+        "foodCost": 800.0,
+        "foodQuantity": 3
+    },
+    {
+        "foodId": 10,
+        "foodType": "Nonveg",
+        "foodName": "Chicken tikka ",
+        "foodDescription": "Chicken tikka toppings with chapati",
+        "foodCost": 900.0,
+        "foodQuantity": 4
+    },
+    {
+        "foodId": 11,
+        "foodType": "veg",
+        "foodName": "veg tikka ",
+        "foodDescription": "Veg tikka toppings with chapati",
+        "foodCost": 700.0,
+        "foodQuantity": 5
+    }
+]
+
+

@@ -1,0 +1,32 @@
+ADD:
+http://localhost:9999/users
+{
+    "UserId":"10",
+    "Password":"capgemini",
+    "Role":"Devops"
+}
+{
+    "UserId":"20",
+    "Password":"capgemini",
+    "Role":"HR"
+}
+
+UPDATE:
+http://localhost:9999/users/10
+
+{
+    "UserId":"10",
+    "Password":"capgemini",
+    "Role":"Devops Engineer"
+}
+
+GETALL:
+http://localhost:9999/users
+OUTPUT:
+[
+    {
+        "role": "Devops Engineer",
+        "UserId": 10,
+        "Password": "capgemini",
+        "Role": "Devops Engineer"
+    },

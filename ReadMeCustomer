@@ -1,0 +1,108 @@
+ADD CUSTOMER
+Method-Post
+Url-http://localhost:9999/customer/insert
+Body-
+{
+    "customerName": "Monika",
+    "customerMobile": 2345678,
+    "customerEmail": "monika@gmail.com",
+    "customerAddress": "coorg",
+    "userName": "moni0302",
+    "password": "moni123"
+}
+
+
+VIEW ALL CUSTOMER 
+Method-Get
+Url:http://localhost:9999/customer/retrieve
+
+{
+        "customerId": 1,
+        "customerName": "Banhisikha Chanda",
+        "customerMobile": 888888,
+        "customerEmail": "abc@gmail.com",
+        "customerAddress": "Kharagpur",
+        "userName": "bani0302",
+        "password": "bani123"
+    },
+    {
+        "customerId": 2,
+        "customerName": "Monika",
+        "customerMobile": 2345678,
+        "customerEmail": "monika@gmail.com",
+        "customerAddress": "coorg",
+        "userName": "moni0302",
+        "password": "moni123"
+    }
+    
+    {
+        "customerId": 2,
+        "customerName": "Monika",
+        "customerMobile": 2345678,
+        "customerEmail": "monika@gmail.com",
+        "customerAddress": "coorg",
+        "userName": "moni0302",
+        "password": "moni123"
+    },
+    {
+        "customerId": 8,
+        "customerName": "Amol",
+        "customerMobile": 2345679,
+        "customerEmail": "Amol@gmail.com",
+        "customerAddress": "Pune",
+        "userName": "Amol0302",
+        "password": "Amol123"
+    },
+    {
+        "customerId": 9,
+        "customerName": "siddharth",
+        "customerMobile": 2345659,
+        "customerEmail": "siddharth@gmail.com",
+        "customerAddress": "Pune",
+        "userName": "siddharth0302",
+        "password": "siddharth123"
+    }
+]
+    
+EDIT CUSTOMER DETAILS(here edited the customerName)
+Method-Put
+Url:http://localhost:9999/customer/edit
+
+{
+        "customerId": 1,
+        "customerName": "payal",
+        "customerMobile": 888888,
+        "customerEmail": "abc@gmail.com",
+        "customerAddress": "Kharagpur",
+        "userName": "bani0302",
+        "password": "bani123"
+ },
+    
+    
+VIEW CUSTOMER BY ID
+Method:Get
+Url:http://localhost:9999/customer/viewonecustomer/1 
+
+{
+        "customerId": 1,
+        "customerName": "payal",
+        "customerMobile": 888888,
+        "customerEmail": "abc@gmail.com",
+        "customerAddress": "Kharagpur",
+        "userName": "bani0302",
+        "password": "bani1
+        
+},
+
+DELETE CUSTOMER BY ID
+Method-Delete
+Url:http://localhost:9999/customer/DeleteCustomer/1   
+    
+ {
+    "data": "Deleted Customer Successfully!",
+    "status": 200
+}   
+    
+
+
+    

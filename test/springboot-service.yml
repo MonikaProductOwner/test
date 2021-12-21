@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: online-food-delivery
+  name: online-food-delivery
+spec:
+  ports:
+    - name: online-food-delivery
+      port: 8080
+      protocol: TCP
+  selector:
+    app: online-food-delivery
+  type: LoadBalancer
